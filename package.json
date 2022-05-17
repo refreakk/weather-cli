@@ -1,0 +1,33 @@
+{
+  "name": "weather-cli-refreak",
+  "version": "1.0.3",
+  "description": "CLI for getting weather",
+  "main": "weather.js",
+  "type": "module",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "refreak",
+  "license": "ISC",
+  "homepage": "https://github.com/refreakk/weather-cli",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/refreakk/weather-cli"
+  },
+  "bugs": {
+    "email": "dimatrofimov5@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1"
+  }
+}
